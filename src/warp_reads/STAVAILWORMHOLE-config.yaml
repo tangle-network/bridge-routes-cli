@@ -1,0 +1,46 @@
+base:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xf57A9F38C81aCba265522627E90AAA5EB197028f"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Staked Avail (Wormhole)
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xb0b1cb358f4597838859edA7dac076ada0E8aA34"
+  symbol: stAVAIL
+  token: "0x74cb668d23E6e54524e2E1e4d1c392F5fd611783"
+  totalSupply: "5103398180766910000000000"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xB8b13519281e759797c6AC18a871793a22c33E86"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Staked Avail (Wormhole)
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0xdd349B107E305FBE56a64876645a947f68B5b9E3"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "8453":
+      address: "0xcC1579deEE9Fd67B3F73EBA8CF2e113bcb59515C"
+  symbol: stAVAIL
+  totalSupply: "0"
+  type: synthetic
+

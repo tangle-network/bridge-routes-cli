@@ -1,0 +1,12 @@
+arbitrum:
+  collateral: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+base:
+  collateral: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+optimism:
+  collateral: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+polygon:
+  collateral: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+ethereum:
+  collateral: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+tangle:
+  synthetic: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"

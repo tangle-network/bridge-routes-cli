@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xDde5FA6a9eE7650b871532d7Cf403A9981cBc873"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Wrapped liquid staked Ether 2.0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x85b9867a52114a3f84B4bd8c3Bb957B921A4b1A5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    "137":
+      address: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    "5845":
+      address: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+    "8453":
+      address: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+  symbol: wstETH
+  token: "0x5979D7b546E38E414F7E9822514be443A4800529"
+  totalSupply: "70013658951574854436427"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xF900150228f0141a918457818Aed0E2395F21661"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Wrapped liquid staked Ether 2.0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    "137":
+      address: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    "42161":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "5845":
+      address: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+  symbol: wstETH
+  token: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452"
+  totalSupply: "49281856321917277246448"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xd8b658F28b70D3580b9984477135Fff982730053"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Wrapped liquid staked Ether 2.0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xaC19c125f0056D23c28b2DD94438eDb8B93c816D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+  symbol: wstETH
+  token: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+  totalSupply: "3586883098713480178119196"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x750cb389a97127D2E7f264392dFf4948ac17fBBD"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Wrapped liquid staked Ether 2.0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x85Baa11cbb537F54338B1c035C7E9487ac18cE64"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    "42161":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "5845":
+      address: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+    "8453":
+      address: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+  symbol: wstETH
+  token: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb"
+  totalSupply: "35325933096405534446802"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x07a4568A98621f90E7D94E87D7e9Bf806d5E19f3"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Wrapped liquid staked Ether 2.0 (PoS)
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x3240f00998fe098165b1f8fCaDBaE292e62560aD"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    "42161":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "5845":
+      address: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+    "8453":
+      address: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+  symbol: wstETH
+  token: "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD"
+  totalSupply: "9852166902514331340743"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x40d91cf855a2c0fED875BC5f1Ba6f6C21299c382"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Wrapped liquid staked Ether 2.0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xA193D0d7Af5055348180Bf9989430b2F702944b8"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    "10":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    "137":
+      address: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    "42161":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "8453":
+      address: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+  symbol: wstETH
+  totalSupply: "0"
+  type: synthetic
+

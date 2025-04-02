@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x0251Bdc4cd9226B369859fd75D5be133EF48e7D9"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypCollateral
+    symbol: LINK
+  - addressOrDenom: "0x7a6BB435590eab856cA0b19EF5bFC227346f0f96"
+    chainName: optimism
+    collateralAddressOrDenom: "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6"
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypCollateral
+    symbol: LINK
+  - addressOrDenom: "0xfeE0B3295D2f7e209217F33FDb46e79D6b3C15C7"
+    chainName: polygon
+    collateralAddressOrDenom: "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypCollateral
+    symbol: LINK
+  - addressOrDenom: "0xB922779bB836765598709032736C86c67E5A514e"
+    chainName: base
+    collateralAddressOrDenom: "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196"
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypCollateral
+    symbol: LINK
+  - addressOrDenom: "0xfD5B74BA0D507290891766D3902cfC9658F08C4E"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypCollateral
+    symbol: LINK
+  - addressOrDenom: "0xd27b4c2F12d0E197c5563daa507DB31c5994180D"
+    chainName: tangle
+    decimals: 18
+    name: ChainLink Token
+    standard: EvmHypSynthetic
+    symbol: LINK

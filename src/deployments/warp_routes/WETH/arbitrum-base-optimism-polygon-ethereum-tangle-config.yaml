@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x02644D01979CDe915eD7D7C3a997072F5716D137"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypCollateral
+    symbol: WETH
+  - addressOrDenom: "0xAa14351a1FdD71f5Fdf3653AF0130f79fC005F6f"
+    chainName: base
+    collateralAddressOrDenom: "0x4200000000000000000000000000000000000006"
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypCollateral
+    symbol: WETH
+  - addressOrDenom: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    chainName: optimism
+    collateralAddressOrDenom: "0x4200000000000000000000000000000000000006"
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypCollateral
+    symbol: WETH
+  - addressOrDenom: "0x0fB3F8e01fAEf0eBC1E56F34E58BA3edCe75B116"
+    chainName: polygon
+    collateralAddressOrDenom: "0x11CD37bb86F65419713f30673A480EA33c826872"
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypCollateral
+    symbol: WETH
+  - addressOrDenom: "0xf57A9F38C81aCba265522627E90AAA5EB197028f"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypCollateral
+    symbol: WETH
+  - addressOrDenom: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+    chainName: tangle
+    decimals: 18
+    name: Wrapped Ether
+    standard: EvmHypSynthetic
+    symbol: WETH

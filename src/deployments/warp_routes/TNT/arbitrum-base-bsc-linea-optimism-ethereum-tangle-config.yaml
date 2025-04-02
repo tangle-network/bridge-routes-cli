@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    chainName: arbitrum
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+    chainName: base
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    chainName: bsc
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    chainName: ethereum
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    chainName: linea
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    chainName: optimism
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypSynthetic
+    symbol: TNT
+  - addressOrDenom: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    chainName: tangle
+    decimals: 18
+    name: Tangle Network Token
+    standard: EvmHypNative
+    symbol: TNT

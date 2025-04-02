@@ -1,0 +1,142 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x0B09627852264Ab9e4545e5690A783e02CEa38BB"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Renzo Restaked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x896B08Be54Dd1d244b1b4367870b0dd36329E6f7"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xb794b059bDA36a01C3757693D4136162752e03C6"
+    "5845":
+      address: "0x536889B3c998D36911BA73411F502662B0754684"
+    "8453":
+      address: "0xCa965b842699e16b367702310f50161e03eb2d27"
+  symbol: ezETH
+  token: "0x2416092f143378750bb29b79eD961ab195CcEea5"
+  totalSupply: "7764538811797020601521"
+  type: xERC20
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x157F25d24579e154d088236Ac358c7fe70577B12"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Renzo Restaked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x71Ef98c7DB8bDDA376684a1739a78210dFD69CeF"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xb794b059bDA36a01C3757693D4136162752e03C6"
+    "42161":
+      address: "0x7CFc15E7fD3998B962D1FC137b64d10513c18097"
+    "5845":
+      address: "0x536889B3c998D36911BA73411F502662B0754684"
+  symbol: ezETH
+  token: "0x2416092f143378750bb29b79eD961ab195CcEea5"
+  totalSupply: "2351636872252311398492"
+  type: xERC20
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x5742195A81349F1306361D71A050C4cDdC5814FE"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Renzo Restaked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x3ecFc99248C32baEAcA1Fd96D3130A0C49cC7B80"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x536889B3c998D36911BA73411F502662B0754684"
+  symbol: ezETH
+  token: "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110"
+  totalSupply: "295185403866281348070465"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x4AAcDc44838f110fb044fe2F145d7bc2AfEab797"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Renzo Restaked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x88dd0d1DA4155f453a5933310df48Ce7d7fEAbfF"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "42161":
+      address: "0x7CFc15E7fD3998B962D1FC137b64d10513c18097"
+    "5845":
+      address: "0x536889B3c998D36911BA73411F502662B0754684"
+    "8453":
+      address: "0xCa965b842699e16b367702310f50161e03eb2d27"
+  symbol: ezETH
+  token: "0x2416092f143378750bb29b79eD961ab195CcEea5"
+  totalSupply: "1628463209775428793841"
+  type: xERC20
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x9D24901D1a35E16b834727e06e0f35E30b752FF5"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Renzo Restaked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x4463B93449EFA70dD086fCb86c6f5Bde972b3bd9"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xea4866eD17f557c8E4D2fB93E705320522216145"
+    "10":
+      address: "0xb794b059bDA36a01C3757693D4136162752e03C6"
+    "42161":
+      address: "0x7CFc15E7fD3998B962D1FC137b64d10513c18097"
+    "8453":
+      address: "0xCa965b842699e16b367702310f50161e03eb2d27"
+  symbol: ezETH
+  totalSupply: "0"
+  type: synthetic
+

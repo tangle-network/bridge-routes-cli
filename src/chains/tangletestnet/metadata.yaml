@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://testnet-explorer.tangle.tools/api
+    family: blockscout
+    name: Tangle Testnet Explorer
+    url: https://testnet-explorer.tangle.tools/
+blocks:
+  confirmations: 4
+  estimateBlockTime: 6
+  reorgPeriod: 4
+chainId: 3799
+displayName: Tangle Testnet
+domainId: 3799
+isTestnet: true
+name: tangletestnet
+nativeToken:
+  decimals: 18
+  name: Tangle Testnet Token
+  symbol: tTNT
+protocol: ethereum
+rpcUrls:
+  - http: https://testnet-rpc.tangle.tools
+technicalStack: polkadotsubstrate

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    chainName: base
+    collateralAddressOrDenom: "0xecAc9C5F704e954931349Da37F60E39f515c11c1"
+    decimals: 8
+    name: Lombard Staked Bitcoin
+    standard: EvmHypCollateral
+    symbol: LBTC
+  - addressOrDenom: "0x88dd0d1DA4155f453a5933310df48Ce7d7fEAbfF"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x8236a87084f8B84306f72007F36F2618A5634494"
+    decimals: 8
+    name: Lombard Staked Bitcoin
+    standard: EvmHypCollateral
+    symbol: LBTC
+  - addressOrDenom: "0xB703e29F2b05c57Fbc2E3492bE5fC6Db62CE3188"
+    chainName: tangle
+    decimals: 8
+    name: Lombard Staked Bitcoin
+    standard: EvmHypSynthetic
+    symbol: LBTC

@@ -1,0 +1,45 @@
+ethereum:
+  decimals: 8
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x8eC690c7b6253a0F834A90E820891BCeC9FA4B3E"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: ether.fi BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xc0CB548E329A9Fb2431E651E8e0B3269aD6F1D22"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x8360830C2BCE22a7Dd15d9350C81d8E573B563eE"
+  symbol: eBTC
+  token: "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642"
+  totalSupply: "331007436131"
+  type: collateral
+tangle:
+  decimals: 8
+  destinationGas:
+    "1": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xE6efEe4D0D8849e7635cC771A8a92F74da61AB55"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: ether.fi BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x45438f04550021467bD6A7CcB8996A18eeeCEf3e"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x8a578773BdE68985B167345301B04B7368c15DAe"
+  symbol: eBTC
+  totalSupply: "0"
+  type: synthetic

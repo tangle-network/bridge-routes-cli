@@ -1,0 +1,60 @@
+holesky:
+  decimals: 18
+  destinationGas:
+    "3799": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3E53e868FaEE986136c1A0f738A21e47f8Da59af"
+    modules:
+      - address: "0x0B09627852264Ab9e4545e5690A783e02CEa38BB"
+        domains: {}
+        owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+        type: defaultFallbackRoutingIsm
+      - address: "0xa0506Bea9638F3d1B83c9f0E9b9C940cA9c77338"
+        relayer: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+        type: trustedRelayerIsm
+    threshold: 1
+    type: staticAggregationIsm
+  mailbox: "0xAA40AD8f072b8bbbE26637678fE0E74A47eFbe31"
+  name: CryptoPeach
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x53EC3d2e3784636c5c5e5bc20AF538dd940AA955"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "3799":
+      address: "0xc0CB548E329A9Fb2431E651E8e0B3269aD6F1D22"
+  symbol: CPT
+  token: "0x9AFaAf4F870Eb87ADA3BA033a635C5C861AC83b0"
+  totalSupply: "1000000000000000000000000"
+  type: collateral
+tangletestnet:
+  decimals: 18
+  destinationGas:
+    "17000": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x188E6118bA9acB5ca19e1e12717E70226Be14636"
+    modules:
+      - address: "0x21F16dB63F954E5C73e06757E0fe136f2BF91564"
+        domains: {}
+        owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+        type: defaultFallbackRoutingIsm
+      - address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+        relayer: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+        type: trustedRelayerIsm
+    threshold: 1
+    type: staticAggregationIsm
+  mailbox: "0x47818e35750e70CC2245B00a17118F8268Ff6Bfd"
+  name: CryptoPeach
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x3662e40ab30842373312ccD25823c8cC8425a8D3"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "17000":
+      address: "0x75F277a14bBe7020aaBd62c482c38391FB09E0ba"
+  symbol: CPT
+  totalSupply: "2434000000000000000000"
+  type: synthetic
+

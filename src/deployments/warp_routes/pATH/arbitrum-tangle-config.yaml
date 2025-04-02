@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0xc537e67Eb192b3F0B6B183ff52060Ee92475f398"
+    connections:
+      - token: ethereum|tangle|0xabc70B5990d6349EAd1112432b9e2357eE2D7a45
+    decimals: 18
+    name: Parasail ATH
+    standard: EvmHypCollateral
+    symbol: pATH
+  - addressOrDenom: "0xabc70B5990d6349EAd1112432b9e2357eE2D7a45"
+    chainName: tangle
+    connections:
+      - token: ethereum|arbitrum|0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52
+    decimals: 18
+    name: Parasail ATH
+    standard: EvmHypSynthetic
+    symbol: pATH

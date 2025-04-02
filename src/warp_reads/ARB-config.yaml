@@ -1,0 +1,72 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x750cb389a97127D2E7f264392dFf4948ac17fBBD"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Arbitrum
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x85Baa11cbb537F54338B1c035C7E9487ac18cE64"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xf44511BAFE78CF8DAaa2804d075B40DEFFFe63b2"
+  symbol: ARB
+  token: "0x912CE59144191C1204E64559FE8253a0e49E6548"
+  totalSupply: "9999998977630224104158908096"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x25Bd880dfd52b42242b0ef0d97b5eC66BABa0d01"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Arbitrum
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x2a07fB774b4B82cb3D4725c10f9A260733A838Ad"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xf44511BAFE78CF8DAaa2804d075B40DEFFFe63b2"
+  symbol: ARB
+  token: "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"
+  totalSupply: "78445549262985651264041043"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x9a9B61F1741C63824D800CC3973f9aDD7f6830F3"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Arbitrum
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x9e911A61BE3D246fA8eF6d18bE84009c86B86240"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x3De76F94e843545241DFB26b99CCf7a33E86050F"
+    "42161":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+  symbol: ARB
+  totalSupply: "100000000000000000"
+  type: synthetic
+

@@ -1,0 +1,46 @@
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xab4E420B21DFa57b103aA09636C1CA88657CDEC7"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Hord ETH Staking
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0778878E53c632da21cd3951A434a54f418d7CB8"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xcFeb82B9a9C7791683C846a69311A6885eD29A03"
+  symbol: hETH
+  token: "0x5bBe36152d3CD3eB7183A82470b39b29EedF068B"
+  totalSupply: "783083854338322497075"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x1a92b502Eff39D5E5784F1F1D2212e57eD80218a"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Hord ETH Staking
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x4A12F2A9CD58e4092266b1f1699b6Ce2b2e80af8"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xFF2b0Dab4956e69bc2c78542C396EEcD9eAB3460"
+  symbol: hETH
+  totalSupply: "0"
+  type: synthetic
+

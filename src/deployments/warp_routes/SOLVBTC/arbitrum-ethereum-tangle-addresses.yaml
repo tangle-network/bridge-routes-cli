@@ -1,0 +1,6 @@
+arbitrum:
+  collateral: "0xc80f2Bd6Bc9C74a6674bC0A0966e76a5eAC51Cf7"
+ethereum:
+  collateral: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+tangle:
+  synthetic: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"

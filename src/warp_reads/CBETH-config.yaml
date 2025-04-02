@@ -1,0 +1,142 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xA70513Ce31949414a5E188674478B91509305aE5"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Coinbase Wrapped Staked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xb3145f03Da46dfCa35C1902A75D93d2bFfEBa1a9"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+    "5845":
+      address: "0x74CBCBa1125ec200cc63efF432B462A084E557cc"
+    "8453":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+  symbol: cbETH
+  token: "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f"
+  totalSupply: "454532410025947630832"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x7609676A9bb2C7403e4bab091f230424c80d49a5"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Coinbase Wrapped Staked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x05069eecA840144133B22a9057f52c5f44B52c65"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+    "42161":
+      address: "0x77dfB661ee20af4F0C48E4d31828efC34D9a93C6"
+    "5845":
+      address: "0x74CBCBa1125ec200cc63efF432B462A084E557cc"
+  symbol: cbETH
+  token: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22"
+  totalSupply: "30470809203849076522657"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x750cb389a97127D2E7f264392dFf4948ac17fBBD"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Coinbase Wrapped Staked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x85Baa11cbb537F54338B1c035C7E9487ac18cE64"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x74CBCBa1125ec200cc63efF432B462A084E557cc"
+  symbol: cbETH
+  token: "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
+  totalSupply: "393750601365061869784889"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2974Ed686Ab889376153939e0A26DDadD45B3101"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Coinbase Wrapped Staked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x025839f191058117ae42349fbe26c98FADa8a2bf"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "42161":
+      address: "0x77dfB661ee20af4F0C48E4d31828efC34D9a93C6"
+    "5845":
+      address: "0x74CBCBa1125ec200cc63efF432B462A084E557cc"
+    "8453":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+  symbol: cbETH
+  token: "0xadDb6A0412DE1BA0F936DCaeb8Aaa24578dcF3B2"
+  totalSupply: "59428567457451731229"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x403ced7a53B755b9605f7D031f4c75e9e6622B12"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Coinbase Wrapped Staked ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x1567b57b76d872a11AF3831338b165352bB51a24"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    "10":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+    "42161":
+      address: "0x77dfB661ee20af4F0C48E4d31828efC34D9a93C6"
+    "8453":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+  symbol: cbETH
+  totalSupply: "0"
+  type: synthetic
+

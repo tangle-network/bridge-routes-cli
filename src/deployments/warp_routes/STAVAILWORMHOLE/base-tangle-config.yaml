@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xcC1579deEE9Fd67B3F73EBA8CF2e113bcb59515C"
+    chainName: base
+    collateralAddressOrDenom: "0x74cb668d23E6e54524e2E1e4d1c392F5fd611783"
+    decimals: 18
+    name: Staked Avail (Wormhole)
+    standard: EvmHypCollateral
+    symbol: stAVAIL
+  - addressOrDenom: "0xb0b1cb358f4597838859edA7dac076ada0E8aA34"
+    chainName: tangle
+    decimals: 18
+    name: Staked Avail (Wormhole)
+    standard: EvmHypSynthetic
+    symbol: stAVAIL

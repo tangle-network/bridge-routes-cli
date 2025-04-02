@@ -1,0 +1,46 @@
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xf44511BAFE78CF8DAaa2804d075B40DEFFFe63b2"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: mETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x2E57D6635b81f70052AdaaE7CFF371Aec399c011"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x89C60DBe8F15d9567A75B0712D43CE4d44977c29"
+  symbol: mETH
+  token: "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa"
+  totalSupply: "371024143308629051008733"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x8b4b071B50B6BB7E8AFA37275Cf9689359d1b651"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: mETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xFDc8a830Cd86E78ba5dA166b8F6584e603f43f13"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+  symbol: mETH
+  totalSupply: "0"
+  type: synthetic
+

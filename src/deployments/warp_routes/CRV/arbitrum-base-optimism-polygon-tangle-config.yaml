@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+    decimals: 18
+    name: Curve DAO Token
+    standard: EvmHypCollateral
+    symbol: CRV
+  - addressOrDenom: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+    chainName: base
+    collateralAddressOrDenom: "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415"
+    decimals: 18
+    name: Curve DAO Token
+    standard: EvmHypCollateral
+    symbol: CRV
+  - addressOrDenom: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    chainName: optimism
+    collateralAddressOrDenom: "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53"
+    decimals: 18
+    name: Curve DAO Token
+    standard: EvmHypCollateral
+    symbol: CRV
+  - addressOrDenom: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    chainName: polygon
+    collateralAddressOrDenom: "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+    decimals: 18
+    name: Curve DAO Token
+    standard: EvmHypCollateral
+    symbol: CRV
+  - addressOrDenom: "0xED8Ef3eF3965f64A143977eB641BA2212DCfC96e"
+    chainName: tangle
+    decimals: 18
+    name: Curve DAO Token
+    standard: EvmHypSynthetic
+    symbol: CRV

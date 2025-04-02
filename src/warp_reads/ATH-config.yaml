@@ -1,0 +1,65 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule: "0x0000000000000000000000000000000000000000"
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Aethir Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x565832DCd96ED90bB4cbA096c19ecbc0B1A2aE7C"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x7d34A65260B02BE334Ef2597Ad8BFaF0f34902E9"
+    "5845":
+      address: "0xeA7aCe3ac44F3BC6dE29535Ce89f43956c4c7B65"
+  symbol: ATH
+  token: "0xc87B37a581ec3257B734886d9d3a581F5A9d056c"
+  totalSupply: "1544098232748858440694231707"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule: "0x0000000000000000000000000000000000000000"
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Aethir Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xA193D0d7Af5055348180Bf9989430b2F702944b8"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "42161":
+      address: "0x78c1A54A229C5bd3Cf84c053a76Ad09fe883E2ba"
+    "5845":
+      address: "0xeA7aCe3ac44F3BC6dE29535Ce89f43956c4c7B65"
+  symbol: ATH
+  token: "0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B"
+  totalSupply: "42000000000000000000000000000"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule: "0x0000000000000000000000000000000000000000"
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Aethir Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x7cD332024e2EDC19465B5a6b764410C9A7648432"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x7d34A65260B02BE334Ef2597Ad8BFaF0f34902E9"
+    "42161":
+      address: "0x78c1A54A229C5bd3Cf84c053a76Ad09fe883E2ba"
+  symbol: ATH
+  totalSupply: "0"
+  type: synthetic

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x75F277a14bBe7020aaBd62c482c38391FB09E0ba"
+    chainName: holesky
+    collateralAddressOrDenom: "0x9afaaf4f870eb87ada3ba033a635c5c861ac83b0"
+    connections:
+      - token: ethereum|tangletestnet|0xc0CB548E329A9Fb2431E651E8e0B3269aD6F1D22
+    decimals: 18
+    name: CryptoPeach
+    standard: EvmHypCollateral
+    symbol: CPT
+  - addressOrDenom: "0xc0CB548E329A9Fb2431E651E8e0B3269aD6F1D22"
+    chainName: tangletestnet
+    connections:
+      - token: ethereum|holesky|0x75F277a14bBe7020aaBd62c482c38391FB09E0ba
+    decimals: 18
+    name: CryptoPeach
+    standard: EvmHypSynthetic
+    symbol: CPT

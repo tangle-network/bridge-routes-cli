@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xd311608Ca8b12d3cce99D9318bc38b4BCcBdE11d"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
+    decimals: 18
+    name: Lido DAO Token
+    standard: EvmHypCollateral
+    symbol: LDO
+  - addressOrDenom: "0x87228bCa8bdB5F3c1EafDddCC14a059Bcde2233b"
+    chainName: optimism
+    collateralAddressOrDenom: "0xFdb794692724153d1488CcdBE0C56c252596735F"
+    decimals: 18
+    name: Lido DAO Token
+    standard: EvmHypCollateral
+    symbol: LDO
+  - addressOrDenom: "0x99829129a49517FAc964802cA30E75Fd96143dC2"
+    chainName: polygon
+    collateralAddressOrDenom: "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+    decimals: 18
+    name: Lido DAO Token
+    standard: EvmHypCollateral
+    symbol: LDO
+  - addressOrDenom: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+    decimals: 18
+    name: Lido DAO Token
+    standard: EvmHypCollateral
+    symbol: LDO
+  - addressOrDenom: "0x94AB056b6CF81464458d205E632b2757A311E821"
+    chainName: tangle
+    decimals: 18
+    name: Lido DAO Token
+    standard: EvmHypSynthetic
+    symbol: LDO

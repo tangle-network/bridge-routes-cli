@@ -1,0 +1,142 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x0Da2b3667Ea028d4362851830c195d772F42Cc12"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Lido DAO Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x4C9C077d025904F5aCc256E8a00CA952d21EE950"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x87228bCa8bdB5F3c1EafDddCC14a059Bcde2233b"
+    "137":
+      address: "0x99829129a49517FAc964802cA30E75Fd96143dC2"
+    "5845":
+      address: "0x94AB056b6CF81464458d205E632b2757A311E821"
+  symbol: LDO
+  token: "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
+  totalSupply: "1419509383664294423036823"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xb794b059bDA36a01C3757693D4136162752e03C6"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Lido DAO Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xc253bB2f8fd02d1B54eb5A9a4b421dfB2eCCE177"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x94AB056b6CF81464458d205E632b2757A311E821"
+  symbol: LDO
+  token: "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+  totalSupply: "1000000000000000000000000000"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x75d051cB10Dacc185D3bDB2fE781D1C624707962"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Lido DAO Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x99829129a49517FAc964802cA30E75Fd96143dC2"
+    "42161":
+      address: "0xd311608Ca8b12d3cce99D9318bc38b4BCcBdE11d"
+    "5845":
+      address: "0x94AB056b6CF81464458d205E632b2757A311E821"
+  symbol: LDO
+  token: "0xFdb794692724153d1488CcdBE0C56c252596735F"
+  totalSupply: "241167097180714848986556"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x80656aaC307F8c7fc6a8ab6109604AA7314B34Ed"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Lido DAO Token (PoS)
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x988C100871A1bAA4750c70e4d50B08Dd4efEf881"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x87228bCa8bdB5F3c1EafDddCC14a059Bcde2233b"
+    "42161":
+      address: "0xd311608Ca8b12d3cce99D9318bc38b4BCcBdE11d"
+    "5845":
+      address: "0x94AB056b6CF81464458d205E632b2757A311E821"
+  symbol: LDO
+  token: "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+  totalSupply: "1590196242497141273897381"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xC1D1fc27D57e92d20d72a6bcb0438BA7965979A6"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Lido DAO Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xf2a7a073Ce6A2c89E0fa6baa12C20Fc0e35bf499"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+    "10":
+      address: "0x87228bCa8bdB5F3c1EafDddCC14a059Bcde2233b"
+    "137":
+      address: "0x99829129a49517FAc964802cA30E75Fd96143dC2"
+    "42161":
+      address: "0xd311608Ca8b12d3cce99D9318bc38b4BCcBdE11d"
+  symbol: LDO
+  totalSupply: "0"
+  type: synthetic
+

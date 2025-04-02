@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xCdb39557fa155Ff98d11739B6A5F687E7Cb922d8"
+    chainName: polygon
+    decimals: 18
+    name: Polygon Ecosystem Token
+    standard: EvmHypNative
+    symbol: POL
+  - addressOrDenom: "0x9e911A61BE3D246fA8eF6d18bE84009c86B86240"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6"
+    decimals: 18
+    name: Polygon Ecosystem Token
+    standard: EvmHypCollateral
+    symbol: POL
+  - addressOrDenom: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+    chainName: tangle
+    decimals: 18
+    name: Polygon Ecosystem Token
+    standard: EvmHypSynthetic
+    symbol: POL

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x3fD392c4b9c8ceD4bA003115A7803D0Fa0c6718B"
+    chainName: optimism
+    collateralAddressOrDenom: "0x4200000000000000000000000000000000000042"
+    decimals: 18
+    name: Optimism
+    standard: EvmHypCollateral
+    symbol: OP
+  - addressOrDenom: "0x117Ea1d145787472C368aB427ae9A4B0b5B8CEe9"
+    chainName: tangle
+    decimals: 18
+    name: Optimism
+    standard: EvmHypSynthetic
+    symbol: OP

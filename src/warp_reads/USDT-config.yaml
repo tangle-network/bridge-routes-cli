@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xbD1B147Daaef235eeec053b5eA7FD0282B3BA14f"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: USD₮0
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xAA037e1cC7c8E940B506AA09677F1efd128E432C"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "137":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    "5845":
+      address: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+    "8453":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+  symbol: USD₮0
+  token: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+  totalSupply: "1503009941339841"
+  type: collateral
+base:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x681C7ce889E66c645a12C5Ab4E9651c806a5579C"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Tether USD
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x64937EaC761209f237bfC10718e6fD75713bA116"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "137":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    "42161":
+      address: "0x5b6C0685Fc934C53b4523Bf8df5277dC4f3914FA"
+    "5845":
+      address: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+  symbol: USDT
+  token: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+  totalSupply: "51162302751424"
+  type: collateral
+ethereum:
+  decimals: 6
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xa3C6690FD69Ca6D0E1f6C903beCB1bD1b7595E29"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Tether USD
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xBE36e02544811920E48110d56A5eC65F72A36711"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+  symbol: USDT
+  token: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+  totalSupply: "75893458264462028"
+  type: collateral
+optimism:
+  decimals: 6
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3De76F94e843545241DFB26b99CCf7a33E86050F"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Tether USD
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x731Dbb1e19C0688a7164Da8B9882379b85F2d863"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    "42161":
+      address: "0x5b6C0685Fc934C53b4523Bf8df5277dC4f3914FA"
+    "5845":
+      address: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+    "8453":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+  symbol: USDT
+  token: "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+  totalSupply: "396580605475437"
+  type: collateral
+polygon:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x681C7ce889E66c645a12C5Ab4E9651c806a5579C"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: (PoS) Tether USD
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x64937EaC761209f237bfC10718e6fD75713bA116"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "42161":
+      address: "0x5b6C0685Fc934C53b4523Bf8df5277dC4f3914FA"
+    "5845":
+      address: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+    "8453":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+  symbol: USDT
+  token: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+  totalSupply: "818827163878086"
+  type: collateral
+tangle:
+  decimals: 6
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x7E714a4E1A745f1Ae24aF3f18E47995a3002D7BD"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Tether USD
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x3936730af1b6EB36e765A54fA5476876C6c08e37"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x91611BFabaD20B5f8f286705C6510456E43E427F"
+    "10":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "137":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    "42161":
+      address: "0x5b6C0685Fc934C53b4523Bf8df5277dC4f3914FA"
+    "8453":
+      address: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+  symbol: USDT
+  totalSupply: "0"
+  type: synthetic
+

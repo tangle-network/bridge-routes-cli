@@ -1,0 +1,210 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xa450e094a622E4d7Fdb6426061DA6660f7e16714"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Arbitrum tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xfd98C553ED512b2f82426F710E900A604964DfC4"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    "10":
+      address: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    "137":
+      address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    "5845":
+      address: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+    "8453":
+      address: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+  symbol: tBTC
+  token: "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40"
+  totalSupply: "95890027210000000000"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x122c216D5379376413Fc7B547598AcD5268A57B4"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Base tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x460313882a7C458217903335817b354348C6E2D7"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    "10":
+      address: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    "137":
+      address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    "42161":
+      address: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    "5845":
+      address: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+  symbol: tBTC
+  token: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+  totalSupply: "107652810450000000000"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x8873D88a14889Cfd222d704b04Ac23e751Aa4807"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xdfCaBfC097315a4aC4C70285Ad626AD94aba5b8F"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    "137":
+      address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    "42161":
+      address: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    "5845":
+      address: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+    "8453":
+      address: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+  symbol: tBTC
+  token: "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+  totalSupply: "4456352021800000000000"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x299d468985e1a7E4979B3A18f1F2dDDb4f17dd22"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Optimism tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    "137":
+      address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    "42161":
+      address: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    "5845":
+      address: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+    "8453":
+      address: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+  symbol: tBTC
+  token: "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40"
+  totalSupply: "60482586230000000000"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x1e9Da23C5FEBa33bae8812C984866A4619bFC761"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Polygon tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0a5C7fa8B9b25F9df3211203F71139643b228d19"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    "10":
+      address: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    "42161":
+      address: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    "5845":
+      address: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+    "8453":
+      address: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+  symbol: tBTC
+  token: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+  totalSupply: "2687770470000000000"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2f0e8C096155B02b77b7740BE9552e4816cCD126"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Arbitrum tBTC v2
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x2302A28Dd787589Fb7e4dD9C2cb34A939AAB7fc3"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    "10":
+      address: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    "137":
+      address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    "42161":
+      address: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    "8453":
+      address: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+  symbol: tBTC
+  totalSupply: "0"
+  type: synthetic
+

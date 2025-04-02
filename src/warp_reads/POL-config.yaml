@@ -1,0 +1,71 @@
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Polygon Ecosystem Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x65135fb3482E86962D9C739c47D1827525AeBea5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+  symbol: POL
+  token: "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6"
+  totalSupply: "10390381896029568550332586689"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x91BCcB2660802f567A48e4F636E35D2eE5d6463F"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Polygon Ecosystem Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0b098c0f4589bB52dbD81958861f7C8916bC3689"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"
+  symbol: POL
+  totalSupply: 0
+  type: native
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "137": "44000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xb794b059bDA36a01C3757693D4136162752e03C6"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Polygon Ecosystem Token
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xc253bB2f8fd02d1B54eb5A9a4b421dfB2eCCE177"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x9e911A61BE3D246fA8eF6d18bE84009c86B86240"
+    "137":
+      address: "0xCdb39557fa155Ff98d11739B6A5F687E7Cb922d8"
+  symbol: POL
+  totalSupply: "2000000000000000000"
+  type: synthetic
+

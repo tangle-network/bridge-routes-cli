@@ -1,0 +1,72 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xa2759368aA95c6d329260897a4c71870606bCa9f"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: swETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x28ce5Ab9E7b4B04f146E3Ca5E3cb87D7b07d5497"
+  symbol: swETH
+  token: "0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18"
+  totalSupply: "37553150889748124485"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x698e3c0B5D4259bE86A3A323274A4869A97bc826"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: swETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x1D6028D35494b30e7d57b0e33483c5b8CF0C6840"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x28ce5Ab9E7b4B04f146E3Ca5E3cb87D7b07d5497"
+  symbol: swETH
+  token: "0xf951E335afb289353dc249e82926178EaC7DEd78"
+  totalSupply: "44606388937497847614158"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x03f2Cd12D35FE6223Fb6e69182C05dFd5254DE77"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: swETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x18C34a1A9A472a12C123C252bF759ED18028b570"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xC5D0781702D9c7BCcdA04DF3F767F1058e753cd1"
+    "42161":
+      address: "0x15BC1c8861def0e6605685bFEdF3A6456f068dBa"
+  symbol: swETH
+  totalSupply: "0"
+  type: synthetic
+

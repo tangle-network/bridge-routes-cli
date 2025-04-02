@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x78c1A54A229C5bd3Cf84c053a76Ad09fe883E2ba"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0xc87B37a581ec3257B734886d9d3a581F5A9d056c"
+    connections:
+      - token: ethereum|ethereum|0x7d34A65260B02BE334Ef2597Ad8BFaF0f34902E9
+      - token: ethereum|tangle|0xeA7aCe3ac44F3BC6dE29535Ce89f43956c4c7B65
+    decimals: 18
+    name: Aethir Token
+    standard: EvmHypCollateral
+    symbol: ATH
+  - addressOrDenom: "0x7d34A65260B02BE334Ef2597Ad8BFaF0f34902E9"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B"
+    connections:
+      - token: ethereum|arbitrum|0x78c1A54A229C5bd3Cf84c053a76Ad09fe883E2ba
+      - token: ethereum|tangle|0xeA7aCe3ac44F3BC6dE29535Ce89f43956c4c7B65
+    decimals: 18
+    name: Aethir Token
+    standard: EvmHypCollateral
+    symbol: ATH
+  - addressOrDenom: "0xeA7aCe3ac44F3BC6dE29535Ce89f43956c4c7B65"
+    chainName: tangle
+    connections:
+      - token: ethereum|arbitrum|0x78c1A54A229C5bd3Cf84c053a76Ad09fe883E2ba
+      - token: ethereum|ethereum|0x7d34A65260B02BE334Ef2597Ad8BFaF0f34902E9
+    decimals: 18
+    name: Aethir Token
+    standard: EvmHypSynthetic
+    symbol: ATH

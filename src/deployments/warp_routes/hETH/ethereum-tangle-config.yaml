@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xFF2b0Dab4956e69bc2c78542C396EEcD9eAB3460"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x5bBe36152d3CD3eB7183A82470b39b29EedF068B"
+    decimals: 18
+    name: Hord ETH Staking
+    standard: EvmHypCollateral
+    symbol: hETH
+  - addressOrDenom: "0xcFeb82B9a9C7791683C846a69311A6885eD29A03"
+    chainName: tangle
+    decimals: 18
+    name: Hord ETH Staking
+    standard: EvmHypSynthetic
+    symbol: hETH

@@ -1,0 +1,138 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "44000"
+    "5845": "64000"
+    "8453": "44000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x0DBcA54Ad603C3A210Ba984d2AE3673BCF250716"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xD1C72546e81b58dC7119707095cA38cAcA19b16D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x96d4357EB200f230816811b4320259b2f9228D5c"
+    "5845":
+      address: "0x6341d878A7f8D1872D8EA6f10e15E89692DC7cd7"
+    "8453":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+  symbol: ETH
+  totalSupply: 0
+  type: native
+base:
+  decimals: 18
+  destinationGas:
+    "10": "44000"
+    "42161": "44000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2974Ed686Ab889376153939e0A26DDadD45B3101"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x025839f191058117ae42349fbe26c98FADa8a2bf"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x96d4357EB200f230816811b4320259b2f9228D5c"
+    "42161":
+      address: "0x68AbCC37de2BEb083Cd6A549f64C3494Ea418BB7"
+    "5845":
+      address: "0x6341d878A7f8D1872D8EA6f10e15E89692DC7cd7"
+  symbol: ETH
+  totalSupply: 0
+  type: native
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x240A5ea397e767FaF1205F25365b76Bc0E8a8826"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xc80f2Bd6Bc9C74a6674bC0A0966e76a5eAC51Cf7"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x6341d878A7f8D1872D8EA6f10e15E89692DC7cd7"
+  symbol: ETH
+  totalSupply: 0
+  type: native
+optimism:
+  decimals: 18
+  destinationGas:
+    "42161": "44000"
+    "5845": "64000"
+    "8453": "44000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xf31aAA6B4E58C19DFE166Bd3ca2d902AB44aaAC8"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x58f37BB1eA5FED3D2543b950C5879fe18d727E8a"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "42161":
+      address: "0x68AbCC37de2BEb083Cd6A549f64C3494Ea418BB7"
+    "5845":
+      address: "0x6341d878A7f8D1872D8EA6f10e15E89692DC7cd7"
+    "8453":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+  symbol: ETH
+  totalSupply: 0
+  type: native
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "44000"
+    "42161": "44000"
+    "8453": "44000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x649D1207F53D897338876d888508ED526BE7A898"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xfE43C0ef9C60Bc76A999284E4017354902549DC4"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x2BAc449691070F058Fdb0E738D1bE9175f8ec63d"
+    "10":
+      address: "0x96d4357EB200f230816811b4320259b2f9228D5c"
+    "42161":
+      address: "0x68AbCC37de2BEb083Cd6A549f64C3494Ea418BB7"
+    "8453":
+      address: "0x61F71B85762c8848083506da347969c58248f0c6"
+  symbol: ETH
+  totalSupply: "500000000000000"
+  type: synthetic
+

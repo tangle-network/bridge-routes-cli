@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x77dfB661ee20af4F0C48E4d31828efC34D9a93C6"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f"
+    decimals: 18
+    name: Coinbase Wrapped Staked ETH
+    standard: EvmHypCollateral
+    symbol: cbETH
+  - addressOrDenom: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    chainName: base
+    collateralAddressOrDenom: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22"
+    decimals: 18
+    name: Coinbase Wrapped Staked ETH
+    standard: EvmHypCollateral
+    symbol: cbETH
+  - addressOrDenom: "0x61F71B85762c8848083506da347969c58248f0c6"
+    chainName: optimism
+    collateralAddressOrDenom: "0xadDb6A0412DE1BA0F936DCaeb8Aaa24578dcF3B2"
+    decimals: 18
+    name: Coinbase Wrapped Staked ETH
+    standard: EvmHypCollateral
+    symbol: cbETH
+  - addressOrDenom: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
+    decimals: 18
+    name: Coinbase Wrapped Staked ETH
+    standard: EvmHypCollateral
+    symbol: cbETH
+  - addressOrDenom: "0x74CBCBa1125ec200cc63efF432B462A084E557cc"
+    chainName: tangle
+    decimals: 18
+    name: Coinbase Wrapped Staked ETH
+    standard: EvmHypSynthetic
+    symbol: cbETH

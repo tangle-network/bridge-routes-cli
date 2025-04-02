@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 8
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2BAc449691070F058Fdb0E738D1bE9175f8ec63d"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x23Ca670678C0E7F1A539b537B71D8f8078927B19"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xDCb6a0a3bC5e034400e845483f21da67866691Bb"
+    "137":
+      address: "0x0E7f434f502200ec7BEb04Ed6B38DFaf0aD88617"
+    "5845":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    "8453":
+      address: "0x989Ecb4dB2543b694b7496f5823DA6fDd26cb5C5"
+  symbol: WBTC
+  token: "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+  totalSupply: "807963932216"
+  type: collateral
+base:
+  decimals: 8
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xd911cE17E1d894CaAd9E56b980dB457b69eF3d8C"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x24f0759b4c3d8Bca1cE86118330A3Bfa74A35f58"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xDCb6a0a3bC5e034400e845483f21da67866691Bb"
+    "137":
+      address: "0x0E7f434f502200ec7BEb04Ed6B38DFaf0aD88617"
+    "42161":
+      address: "0x44626462ed716DF3569a55c3584CEe2027d061bf"
+    "5845":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+  symbol: WBTC
+  token: "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+  totalSupply: "85318603"
+  type: collateral
+ethereum:
+  decimals: 8
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xDde5FA6a9eE7650b871532d7Cf403A9981cBc873"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x85b9867a52114a3f84B4bd8c3Bb957B921A4b1A5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+  symbol: WBTC
+  token: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+  totalSupply: "12891505657878"
+  type: collateral
+optimism:
+  decimals: 8
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xC5B342D3CfAd241D9300Cb76116CA4a5e30Cf2Ac"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x80DEf4e83364Cb2dac44928Bd411e6E698A0CD35"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x0E7f434f502200ec7BEb04Ed6B38DFaf0aD88617"
+    "42161":
+      address: "0x44626462ed716DF3569a55c3584CEe2027d061bf"
+    "5845":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    "8453":
+      address: "0x989Ecb4dB2543b694b7496f5823DA6fDd26cb5C5"
+  symbol: WBTC
+  token: "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
+  totalSupply: "91735808190"
+  type: collateral
+polygon:
+  decimals: 8
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xc253bB2f8fd02d1B54eb5A9a4b421dfB2eCCE177"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: (PoS) Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x9A5561E7cd9745abe7C668eCb4f64d0DEE532b17"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xDCb6a0a3bC5e034400e845483f21da67866691Bb"
+    "42161":
+      address: "0x44626462ed716DF3569a55c3584CEe2027d061bf"
+    "5845":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    "8453":
+      address: "0x989Ecb4dB2543b694b7496f5823DA6fDd26cb5C5"
+  symbol: WBTC
+  token: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+  totalSupply: "320928848989"
+  type: collateral
+tangle:
+  decimals: 8
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x04E7DE4eA41363E77F8774AB8CcEB02ef48916D3"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Wrapped BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xf7daF4b9f0e94557310332b2d0b703Db69ABeaD6"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "10":
+      address: "0xDCb6a0a3bC5e034400e845483f21da67866691Bb"
+    "137":
+      address: "0x0E7f434f502200ec7BEb04Ed6B38DFaf0aD88617"
+    "42161":
+      address: "0x44626462ed716DF3569a55c3584CEe2027d061bf"
+    "8453":
+      address: "0x989Ecb4dB2543b694b7496f5823DA6fDd26cb5C5"
+  symbol: WBTC
+  totalSupply: "0"
+  type: synthetic
+

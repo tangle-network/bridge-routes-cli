@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x8DA17A0e53EBbf10578FFBD81fEBc878AbDa6cf8"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40"
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypCollateral
+    symbol: tBTC
+  - addressOrDenom: "0x69F6bBb296eAB012955BbB32524E9c0d5a84153F"
+    chainName: base
+    collateralAddressOrDenom: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypCollateral
+    symbol: tBTC
+  - addressOrDenom: "0xa4cFffD900758D492D022E6b67f2092b1Dc8bCD4"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypCollateral
+    symbol: tBTC
+  - addressOrDenom: "0x0ef4a94D10C7eb84F01247365b6983c2ACF43fc4"
+    chainName: optimism
+    collateralAddressOrDenom: "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40"
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypCollateral
+    symbol: tBTC
+  - addressOrDenom: "0xF852cE3E163ae2A2B43f05C6696B50D386ca44d5"
+    chainName: polygon
+    collateralAddressOrDenom: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypCollateral
+    symbol: tBTC
+  - addressOrDenom: "0x388A9a1a38CA0079a43202817cc56315C5D4B89B"
+    chainName: tangle
+    decimals: 18
+    name: Arbitrum tBTC v2
+    standard: EvmHypSynthetic
+    symbol: tBTC

@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x5979D7b546E38E414F7E9822514be443A4800529"
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypCollateral
+    symbol: wstETH
+  - addressOrDenom: "0x451c6284eEA043Fa3969bA65530E96421C89bF9b"
+    chainName: base
+    collateralAddressOrDenom: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452"
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypCollateral
+    symbol: wstETH
+  - addressOrDenom: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    chainName: optimism
+    collateralAddressOrDenom: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb"
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypCollateral
+    symbol: wstETH
+  - addressOrDenom: "0x5180c082e7E438c80cF4235C098C8CB0a7c3E3FD"
+    chainName: polygon
+    collateralAddressOrDenom: "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD"
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypCollateral
+    symbol: wstETH
+  - addressOrDenom: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypCollateral
+    symbol: wstETH
+  - addressOrDenom: "0xC0fD9c0ee70d7d9Eede7f5918077dC506aF95E48"
+    chainName: tangle
+    decimals: 18
+    name: Wrapped liquid staked Ether 2.0
+    standard: EvmHypSynthetic
+    symbol: wstETH

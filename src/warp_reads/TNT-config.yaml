@@ -1,0 +1,260 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "10": "64000"
+    "56": "64000"
+    "5845": "44000"
+    "59144": "64000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xA72AA4F5A4cF769eC5C5e766C3506e9b18cA37D7"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x122b70dAF8D39cf0Caa1E46b9DcB689335835C08"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: "3000000000000000000"
+  type: synthetic
+base:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "10": "64000"
+    "42161": "64000"
+    "56": "64000"
+    "5845": "44000"
+    "59144": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x9bc2623da7e10DF3C26f3ec85D5606b949Da082a"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+  symbol: TNT
+  totalSupply: "0"
+  type: synthetic
+bsc:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "10": "64000"
+    "42161": "64000"
+    "5845": "44000"
+    "59144": "64000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3De76F94e843545241DFB26b99CCf7a33E86050F"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2971b9Aec44bE4eb673DF1B88cDB57b96eefe8a4"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x731Dbb1e19C0688a7164Da8B9882379b85F2d863"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: "0"
+  type: synthetic
+ethereum:
+  decimals: 18
+  destinationGas:
+    "10": "64000"
+    "42161": "64000"
+    "56": "64000"
+    "5845": "44000"
+    "59144": "64000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x919A0974cb9B9ac7d82bA9538cB353C8c3e7C2a9"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x0DD086E5F5c11b7979C30Eb51a5fb26f45183bb1"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: "0"
+  type: synthetic
+linea:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "10": "64000"
+    "42161": "64000"
+    "56": "64000"
+    "5845": "44000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x65249c77f3C9232eDB0CF7730751BEa2526272b3"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x02d16BC51af6BfD153d67CA61754cF912E82C4d9"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x1F6cD0aDc4627be8AE07444A5E3655eFA4271802"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: "0"
+  type: synthetic
+optimism:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "42161": "64000"
+    "56": "64000"
+    "5845": "44000"
+    "59144": "64000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xf44511BAFE78CF8DAaa2804d075B40DEFFFe63b2"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x2E57D6635b81f70052AdaaE7CFF371Aec399c011"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "5845":
+      address: "0xFB7D161c56FC001Ee4BD30F7B94519fEed25b22F"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: "0"
+  type: synthetic
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "64000"
+    "10": "64000"
+    "42161": "64000"
+    "56": "64000"
+    "59144": "64000"
+    "8453": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x29c197244E927A507f98AB78fcca10D672cb26c9"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Tangle Network Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x82ad15AE12953A01DCb843b61CC82e587e5d0832"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "1":
+      address: "0x1465399089F3bFC43E7A52637a296C46423f8417"
+    "10":
+      address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    "42161":
+      address: "0xB23565d388d03B95212Dc5b8F02e40D7edC77E1A"
+    "56":
+      address: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    "59144":
+      address: "0x606F11cF2395881689eC7d1289A2282ab694bDa2"
+    "8453":
+      address: "0x64570ea315052A04E0b476254bb142BA21759DF5"
+  symbol: TNT
+  totalSupply: 0
+  type: native
+

@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypCollateral
+    symbol: DAI
+  - addressOrDenom: "0xfB03a8fEea1635c16Fd81731E89E5517201C20e5"
+    chainName: base
+    collateralAddressOrDenom: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypCollateral
+    symbol: DAI
+  - addressOrDenom: "0x6d55528963D147BEA3e925538F2e32C24Fa0119a"
+    chainName: optimism
+    collateralAddressOrDenom: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypCollateral
+    symbol: DAI
+  - addressOrDenom: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    chainName: polygon
+    collateralAddressOrDenom: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypCollateral
+    symbol: DAI
+  - addressOrDenom: "0xC5B342D3CfAd241D9300Cb76116CA4a5e30Cf2Ac"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypCollateral
+    symbol: DAI
+  - addressOrDenom: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+    chainName: tangle
+    decimals: 18
+    name: Dai Stablecoin
+    standard: EvmHypSynthetic
+    symbol: DAI

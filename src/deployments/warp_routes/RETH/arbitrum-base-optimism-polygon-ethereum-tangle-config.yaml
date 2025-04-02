@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: '0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E'
+    chainName: arbitrum
+    collateralAddressOrDenom: '0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8'
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypCollateral
+    symbol: rETH
+  - addressOrDenom: '0xb2434BA552d88e026c1D339CFE8c827d98A626b9'
+    chainName: base
+    collateralAddressOrDenom: '0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c'
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypCollateral
+    symbol: rETH
+  - addressOrDenom: '0xEF783f54b69554f0A3c7263DF508A395febb407b'
+    chainName: optimism
+    collateralAddressOrDenom: '0x9Bcef72be871e61ED4fBbc7630889beE758eb81D'
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypCollateral
+    symbol: rETH
+  - addressOrDenom: '0x158C33834acf0B3d061DdFA1C7784cA595AC1c25'
+    chainName: polygon
+    collateralAddressOrDenom: '0x0266F4F08D82372CF0FcbCCc0Ff74309089c74d1'
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypCollateral
+    symbol: rETH
+  - addressOrDenom: '0xD261C3F45F88169FA2b51dFA65c45e8644E2e0bB'
+    chainName: ethereum
+    collateralAddressOrDenom: '0xae78736Cd615f374D3085123A210448E74Fc6393'
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypCollateral
+    symbol: rETH
+  - addressOrDenom: '0xbD33235a960874027ad0C7393BE8583572EE2f5b'
+    chainName: tangle
+    decimals: 18
+    name: Rocket Pool ETH
+    standard: EvmHypSynthetic
+    symbol: rETH

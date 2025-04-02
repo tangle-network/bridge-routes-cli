@@ -1,0 +1,6 @@
+polygon:
+  native: "0xCdb39557fa155Ff98d11739B6A5F687E7Cb922d8"
+ethereum:
+  collateral: "0x9e911A61BE3D246fA8eF6d18bE84009c86B86240"
+tangle:
+  synthetic: "0x160F5cD345Db235C92B671782d27F5aA6F2f31EB"

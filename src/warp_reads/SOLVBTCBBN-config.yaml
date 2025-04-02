@@ -1,0 +1,72 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xdfCaBfC097315a4aC4C70285Ad626AD94aba5b8F"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: SolvBTC Babylon
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xDd9A241f3219221D2a181D3465a46Bed89A3127A"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xF0120960A6D667460F21f88778cb5e44cb90Ac3d"
+  symbol: SolvBTC.BBN
+  token: "0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB"
+  totalSupply: "28279892423177226226"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xf31aAA6B4E58C19DFE166Bd3ca2d902AB44aaAC8"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: SolvBTC Babylon
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x58f37BB1eA5FED3D2543b950C5879fe18d727E8a"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xF0120960A6D667460F21f88778cb5e44cb90Ac3d"
+  symbol: SolvBTC.BBN
+  token: "0xd9D920AA40f578ab794426F5C90F6C731D159DEf"
+  totalSupply: "1636300851421206592202"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xFF42d986DaD3c1DC627D18E4cF5784B432772DF7"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: SolvBTC Babylon
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x395CA22AEa9f3d61F3D786Ad08ec6e3aF5Da1Ae9"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x96d4357EB200f230816811b4320259b2f9228D5c"
+    "42161":
+      address: "0x122c216D5379376413Fc7B547598AcD5268A57B4"
+  symbol: SolvBTC.BBN
+  totalSupply: "0"
+  type: synthetic
+

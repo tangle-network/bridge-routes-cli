@@ -1,0 +1,160 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xEE62091A0b49c3206Ffcae728f794Fa698399bc2"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Curve DAO Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x2E50953884df5EFc272adAC60B394752e0B4Daa4"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    "137":
+      address: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    "5845":
+      address: "0xED8Ef3eF3965f64A143977eB641BA2212DCfC96e"
+    "8453":
+      address: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+  symbol: CRV
+  token: "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+  totalSupply: "16155877758425813706362180"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x51f40220aB24698a0741a553B34bBC3a4215CdDe"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Curve DAO Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x1e9Da23C5FEBa33bae8812C984866A4619bFC761"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    "137":
+      address: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    "42161":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+    "5845":
+      address: "0xED8Ef3eF3965f64A143977eB641BA2212DCfC96e"
+  symbol: CRV
+  token: "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415"
+  totalSupply: "1178125993395133224809903"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x7609676A9bb2C7403e4bab091f230424c80d49a5"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Curve DAO Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x05069eecA840144133B22a9057f52c5f44B52c65"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "137":
+      address: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    "42161":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+    "5845":
+      address: "0xED8Ef3eF3965f64A143977eB641BA2212DCfC96e"
+    "8453":
+      address: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+  symbol: CRV
+  token: "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53"
+  totalSupply: "5070253872520341288591440"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xF1Ae6c09856F6328C56e951a796f7bD340968E88"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: CRV (PoS)
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x63Aa6099652b0F350e270b341e2c74993403a279"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    "42161":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+    "5845":
+      address: "0xED8Ef3eF3965f64A143977eB641BA2212DCfC96e"
+    "8453":
+      address: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+  symbol: CRV
+  token: "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+  totalSupply: "9975384253635057015145144"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xB749d5Ec2b84A0Dc594Ea17112D4C2799D44247D"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Curve DAO Token
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x9b8AaaA019Da96Cb5e077Fc0529BA8ae1568B53d"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0xb0cB96127e4C4bE884F71c9CF2BbbFf897271e76"
+    "137":
+      address: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    "42161":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+    "8453":
+      address: "0xAf461f35C12d207ee533191C89B476CCB1b03D60"
+  symbol: CRV
+  totalSupply: "0"
+  type: synthetic
+

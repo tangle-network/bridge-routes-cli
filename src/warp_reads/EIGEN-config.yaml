@@ -1,0 +1,46 @@
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x85EC41F8C12FBAEf69367cE0d7A37a51dc2F21b4"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Eigen
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x426e01dC3a98Fa6461de71350158Aa2dfc2148aB"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x322CCb93C99BDDD78eC7cc6cA55eeceF1268BC16"
+  symbol: EIGEN
+  token: "0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83"
+  totalSupply: "1714844124734743938461538495"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xAF61d4e398e4137A51e7cc9A1B612c8929aaAB0F"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Eigen
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x581eE0aE51D2707b1733f585aF8a6AB1b62562E2"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x7C547f860b71399846E5CC2487f60A2b34396CC2"
+  symbol: EIGEN
+  totalSupply: "0"
+  type: synthetic
+

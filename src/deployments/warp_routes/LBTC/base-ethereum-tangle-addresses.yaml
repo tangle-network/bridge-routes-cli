@@ -1,0 +1,6 @@
+base:
+  collateral: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+ethereum:
+  collateral: "0x88dd0d1DA4155f453a5933310df48Ce7d7fEAbfF"
+tangle:
+  synthetic: "0xB703e29F2b05c57Fbc2E3492bE5fC6Db62CE3188"

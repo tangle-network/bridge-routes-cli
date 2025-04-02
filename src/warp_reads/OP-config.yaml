@@ -1,0 +1,46 @@
+optimism:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3a474145a9bEbb2D15c16b211a15Ea2c53bab906"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Optimism
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xfD5B74BA0D507290891766D3902cfC9658F08C4E"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x117Ea1d145787472C368aB427ae9A4B0b5B8CEe9"
+  symbol: OP
+  token: "0x4200000000000000000000000000000000000042"
+  totalSupply: "4294963294239972048644009441"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xCba92134974d3ba84Ee10d4Ed53155Ec8E0Fa62D"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Optimism
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xA9712fF0b387F528BD3B7ff4715c7684007880B5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x3fD392c4b9c8ceD4bA003115A7803D0Fa0c6718B"
+  symbol: OP
+  totalSupply: "100000000000000000"
+  type: synthetic
+

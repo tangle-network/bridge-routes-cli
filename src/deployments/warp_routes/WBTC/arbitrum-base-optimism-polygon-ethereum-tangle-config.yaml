@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x44626462ed716DF3569a55c3584CEe2027d061bf"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypCollateral
+    symbol: WBTC
+  - addressOrDenom: "0x989Ecb4dB2543b694b7496f5823DA6fDd26cb5C5"
+    chainName: base
+    collateralAddressOrDenom: "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypCollateral
+    symbol: WBTC
+  - addressOrDenom: "0xDCb6a0a3bC5e034400e845483f21da67866691Bb"
+    chainName: optimism
+    collateralAddressOrDenom: "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypCollateral
+    symbol: WBTC
+  - addressOrDenom: "0x0E7f434f502200ec7BEb04Ed6B38DFaf0aD88617"
+    chainName: polygon
+    collateralAddressOrDenom: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypCollateral
+    symbol: WBTC
+  - addressOrDenom: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypCollateral
+    symbol: WBTC
+  - addressOrDenom: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    chainName: tangle
+    decimals: 8
+    name: Wrapped BTC
+    standard: EvmHypSynthetic
+    symbol: WBTC

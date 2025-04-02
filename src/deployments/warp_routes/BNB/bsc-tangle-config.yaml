@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x510b0140a4A5b12c7127fB0A6A946200d66a64C2"
+    chainName: bsc
+    decimals: 18
+    name: BNB
+    standard: EvmHypNative
+    symbol: BNB
+  - addressOrDenom: "0x7497aDa0D9761ce5fc5965dDF926810BEfDDEA4d"
+    chainName: tangle
+    decimals: 18
+    name: BNB
+    standard: EvmHypSynthetic
+    symbol: BNB

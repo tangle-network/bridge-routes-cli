@@ -1,0 +1,72 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x19f85bb15799C82728633D1730a9688e07Cf5da0"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: USDX
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xB8b13519281e759797c6AC18a871793a22c33E86"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x04667a82F593d55aa34CE38B204Ec0Fdc54cDe0C"
+  symbol: USDX
+  token: "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef"
+  totalSupply: "110605630329490108921376144"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x6c1F9a4f4EfC39B2D843A4270C0c04a5c811efeC"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: USDX
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x5f74401ce6B2a872A9A2Cff066Fa66C598Bf8bcA"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x04667a82F593d55aa34CE38B204Ec0Fdc54cDe0C"
+  symbol: USDX
+  token: "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef"
+  totalSupply: "14058500435971820277950624"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x15d273155C7a215dbB1245C247b71DF576c45EAf"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: USDX
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0dF83BD937BE28933dAa3AfB49F4faD2f10c73CD"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x21F16dB63F954E5C73e06757E0fe136f2BF91564"
+    "42161":
+      address: "0x4139b8F1474FFd04EE15F86103EF53f8Fdb3d8D0"
+  symbol: USDX
+  totalSupply: "0"
+  type: synthetic
+

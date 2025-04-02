@@ -1,0 +1,37 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule: "0x0000000000000000000000000000000000000000"
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Parasail ATH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xDcDab4A2B7f73bC006E1dCe97FCDa67f1C2cc465"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xabc70B5990d6349EAd1112432b9e2357eE2D7a45"
+  symbol: pATH
+  token: "0xc537e67Eb192b3F0B6B183ff52060Ee92475f398"
+  totalSupply: "1017752475935976271822816"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule: "0x0000000000000000000000000000000000000000"
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Parasail ATH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xFB9C07Ef1ff247848Ce4174cae98D571899ff712"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "42161":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+  symbol: pATH
+  totalSupply: "0"
+  type: synthetic

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x91BCcB2660802f567A48e4F636E35D2eE5d6463F"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x35fA164735182de50811E8e2E824cFb9B6118ac2"
+    decimals: 18
+    name: ether.fi ETH
+    standard: EvmHypCollateral
+    symbol: eETH
+  - addressOrDenom: "0x69cC6D7da66752B267C9F6B157F0643F54654233"
+    chainName: tangle
+    decimals: 18
+    name: ether.fi ETH
+    standard: EvmHypSynthetic
+    symbol: eETH

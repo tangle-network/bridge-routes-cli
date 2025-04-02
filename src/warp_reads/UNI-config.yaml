@@ -1,0 +1,116 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x04E7DE4eA41363E77F8774AB8CcEB02ef48916D3"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Uniswap
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0xf7daF4b9f0e94557310332b2d0b703Db69ABeaD6"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0x25Eb364cb96485c22eE70a6cfc60717F0C0b3380"
+    "137":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "5845":
+      address: "0xC2450aa58A3ec477B04F2122c8101eE6bdcC3A82"
+  symbol: UNI
+  token: "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0"
+  totalSupply: "1292841947621230832277733"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x69d520afbaB088C981B4906A159acc2a6b1b7B91"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Uniswap
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x29925bD599d5f35Ef1eeba0369fb1F48C370b7a5"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "137":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "42161":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    "5845":
+      address: "0xC2450aa58A3ec477B04F2122c8101eE6bdcC3A82"
+  symbol: UNI
+  token: "0x6fd9d7AD17242c41f7131d257212c54A0e816691"
+  totalSupply: "90707669467167678248258"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xDde5FA6a9eE7650b871532d7Cf403A9981cBc873"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Uniswap (PoS)
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x85b9867a52114a3f84B4bd8c3Bb957B921A4b1A5"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0x25Eb364cb96485c22eE70a6cfc60717F0C0b3380"
+    "42161":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+    "5845":
+      address: "0xC2450aa58A3ec477B04F2122c8101eE6bdcC3A82"
+  symbol: UNI
+  token: "0xb33EaAd8d922B1083446DC23f610c2567fB5180f"
+  totalSupply: "312259017962349764594334"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2C9f587f30C67CB5145b4BbB2AA5B8e758CC9ad3"
+    domains: {}
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Uniswap
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x8BfC1D2A048c49951BE490224502Fd6C920869d8"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "10":
+      address: "0x25Eb364cb96485c22eE70a6cfc60717F0C0b3380"
+    "137":
+      address: "0xa3E0920CAf0e2eDDDe54D49fFC1d82e1a23c9693"
+    "42161":
+      address: "0xd5c9FCfF2f362E89538E92e8B6e677571E11C1e7"
+  symbol: UNI
+  totalSupply: "0"
+  type: synthetic
+

@@ -1,0 +1,46 @@
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2Abd9b6C86BFEb5Bed93af13753379F6D6F8cD9C"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Avail
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x4cea2C2c70Ca761cb072E8763D65085b3B5F002A"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x4A68525B31F8C67761e0429f6e4766a55f15b7A5"
+  symbol: AVAIL
+  token: "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8"
+  totalSupply: "74273189662791883353954567"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x5842f6d7f847AA6dC823b47a1C2E016703FC0B4A"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Avail
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x8fBeedfB2D0BB3C11f0bAd5Ca1E6cCE1e2dc4f70"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xf8dC93D3FCf1b8c7C950CB4bEe9dE70633C0553f"
+  symbol: AVAIL
+  totalSupply: "0"
+  type: synthetic
+

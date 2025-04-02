@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x99Ce18058C6fE35216D8626C3D183526240CcCbb"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x912CE59144191C1204E64559FE8253a0e49E6548"
+    decimals: 18
+    name: Arbitrum
+    standard: EvmHypCollateral
+    symbol: ARB
+  - addressOrDenom: "0x3De76F94e843545241DFB26b99CCf7a33E86050F"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"
+    decimals: 18
+    name: Arbitrum
+    standard: EvmHypCollateral
+    symbol: ARB
+  - addressOrDenom: "0xf44511BAFE78CF8DAaa2804d075B40DEFFFe63b2"
+    chainName: tangle
+    decimals: 18
+    name: Arbitrum
+    standard: EvmHypSynthetic
+    symbol: ARB

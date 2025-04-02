@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xd8b658F28b70D3580b9984477135Fff982730053"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xaC19c125f0056D23c28b2DD94438eDb8B93c816D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x6d55528963D147BEA3e925538F2e32C24Fa0119a"
+    "137":
+      address: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    "5845":
+      address: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+    "8453":
+      address: "0xfB03a8fEea1635c16Fd81731E89E5517201C20e5"
+  symbol: DAI
+  token: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+  totalSupply: "23268677743104186372073463"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x79E9d28da6Ffa97302f85325B1F92FAff19E80fF"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x535CbDc817c1B7a6e9506C8a786323c1B8779b20"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x6d55528963D147BEA3e925538F2e32C24Fa0119a"
+    "137":
+      address: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    "42161":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    "5845":
+      address: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+  symbol: DAI
+  token: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+  totalSupply: "2031856949323532814243382"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3594E11576E26B71b16510ECD98Dce4Fe9DCCC92"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x266c07994EdeeC3d252967935A8Ab03362f3075E"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+  symbol: DAI
+  token: "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+  totalSupply: "3240267380911235073041950095"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x64937EaC761209f237bfC10718e6fD75713bA116"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0CA5F3dA87ABc52083ADeb52930868FeCb6e267E"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    "42161":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    "5845":
+      address: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+    "8453":
+      address: "0xfB03a8fEea1635c16Fd81731E89E5517201C20e5"
+  symbol: DAI
+  token: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+  totalSupply: "17604391185924785423659952"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xcC1579deEE9Fd67B3F73EBA8CF2e113bcb59515C"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: (PoS) Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xb4c2a9A412d4ae746706CAc8aacf6340EB3D6134"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x6d55528963D147BEA3e925538F2e32C24Fa0119a"
+    "42161":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    "5845":
+      address: "0xE75BE8E6C71eA004949898306DDa9BD59Cc2b0dC"
+    "8453":
+      address: "0xfB03a8fEea1635c16Fd81731E89E5517201C20e5"
+  symbol: DAI
+  token: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+  totalSupply: "131763129058528649791178961"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xe9E709E681635Cb5F4C8B18759ABe5b79313130E"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Dai Stablecoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x86f1333F3e753036dF8487f19C719b61ee9EaB54"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xC5B342D3CfAd241D9300Cb76116CA4a5e30Cf2Ac"
+    "10":
+      address: "0x6d55528963D147BEA3e925538F2e32C24Fa0119a"
+    "137":
+      address: "0x215fF6c8C9FdC3a8635F2343112B7b5aA8194789"
+    "42161":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+    "8453":
+      address: "0xfB03a8fEea1635c16Fd81731E89E5517201C20e5"
+  symbol: DAI
+  totalSupply: "0"
+  type: synthetic
+

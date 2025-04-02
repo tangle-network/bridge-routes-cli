@@ -1,0 +1,45 @@
+bsc:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x91af95945e296Ac3e53009451A64438613a10223"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2971b9Aec44bE4eb673DF1B88cDB57b96eefe8a4"
+  name: BNB
+  owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  proxyAdmin:
+    address: "0x8eC690c7b6253a0F834A90E820891BCeC9FA4B3E"
+    owner: "0x99aAecd05f9b699d1F07bEE4eEF40d64A2a5cb3d"
+  remoteRouters:
+    "5845":
+      address: "0x7497aDa0D9761ce5fc5965dDF926810BEfDDEA4d"
+  symbol: BNB
+  totalSupply: 0
+  type: native
+tangle:
+  decimals: 18
+  destinationGas:
+    "56": "44000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x58f37BB1eA5FED3D2543b950C5879fe18d727E8a"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: BNB
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x157F25d24579e154d088236Ac358c7fe70577B12"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "56":
+      address: "0x510b0140a4A5b12c7127fB0A6A946200d66a64C2"
+  symbol: BNB
+  totalSupply: "0"
+  type: synthetic
+

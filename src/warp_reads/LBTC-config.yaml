@@ -1,0 +1,72 @@
+base:
+  decimals: 8
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xd8b658F28b70D3580b9984477135Fff982730053"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Lombard Staked Bitcoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xaC19c125f0056D23c28b2DD94438eDb8B93c816D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xB703e29F2b05c57Fbc2E3492bE5fC6Db62CE3188"
+  symbol: LBTC
+  token: "0xecAc9C5F704e954931349Da37F60E39f515c11c1"
+  totalSupply: "123647845388"
+  type: collateral
+ethereum:
+  decimals: 8
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xEF783f54b69554f0A3c7263DF508A395febb407b"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Lombard Staked Bitcoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x16cE12C3932936deC6F2E7bb834db1d0c08aa5dC"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xB703e29F2b05c57Fbc2E3492bE5fC6Db62CE3188"
+  symbol: LBTC
+  token: "0x8236a87084f8B84306f72007F36F2618A5634494"
+  totalSupply: "1972563254381"
+  type: collateral
+tangle:
+  decimals: 8
+  destinationGas:
+    "1": "0"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xC769ECfF91b9DC0B9F14E937784E20FbC70F0523"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Lombard Staked Bitcoin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x40C25313fF0850D7B6cb299Cf70Af0a7D1787bad"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x88dd0d1DA4155f453a5933310df48Ce7d7fEAbfF"
+    "8453":
+      address: "0xD297d7F1B1660334F98941Dc7d3BC4A49b7837EC"
+  symbol: LBTC
+  totalSupply: "0"
+  type: synthetic
+

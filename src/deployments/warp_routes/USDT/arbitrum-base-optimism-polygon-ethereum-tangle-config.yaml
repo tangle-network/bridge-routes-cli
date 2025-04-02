@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x5b6C0685Fc934C53b4523Bf8df5277dC4f3914FA"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    chainName: base
+    collateralAddressOrDenom: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0x108F919b5A76B64e80dBf74130Ff6441A62F6405"
+    chainName: optimism
+    collateralAddressOrDenom: "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0x72141B45a23333011AaAb07D6fDEBbE97049091e"
+    chainName: polygon
+    collateralAddressOrDenom: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0x91611BFabaD20B5f8f286705C6510456E43E427F"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0xa06898e779998eC3a749368DF924d5b94C2465b4"
+    chainName: tangle
+    decimals: 6
+    name: Tether USD
+    standard: EvmHypSynthetic
+    symbol: USDT

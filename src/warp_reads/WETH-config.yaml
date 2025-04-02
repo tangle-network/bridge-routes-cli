@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x0DD086E5F5c11b7979C30Eb51a5fb26f45183bb1"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x0F5b580B47262A1984B24e86c2311A10D9F8a808"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    "137":
+      address: "0x0fB3F8e01fAEf0eBC1E56F34E58BA3edCe75B116"
+    "5845":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+    "8453":
+      address: "0xAa14351a1FdD71f5Fdf3653AF0130f79fC005F6f"
+  symbol: WETH
+  token: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+  totalSupply: "206415908787838916345584"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x214C82dB4A580175f0CFE0c8B0a4455F87AAb6a4"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x16778ABA2C184b84591D2a093a8DEF96b1dBc69D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    "137":
+      address: "0x0fB3F8e01fAEf0eBC1E56F34E58BA3edCe75B116"
+    "42161":
+      address: "0x02644D01979CDe915eD7D7C3a997072F5716D137"
+    "5845":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+  symbol: WETH
+  token: "0x4200000000000000000000000000000000000006"
+  totalSupply: "227543590509375502518497"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x053894C55dC1b2B873FC125333a31f217Bb41e74"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x07a4568A98621f90E7D94E87D7e9Bf806d5E19f3"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+  symbol: WETH
+  token: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  totalSupply: "2816705689035879431115180"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x199aE19c888E06FE1a68E8b1b588E10ca7B7B7d2"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x80656aaC307F8c7fc6a8ab6109604AA7314B34Ed"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x0fB3F8e01fAEf0eBC1E56F34E58BA3edCe75B116"
+    "42161":
+      address: "0x02644D01979CDe915eD7D7C3a997072F5716D137"
+    "5845":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+    "8453":
+      address: "0xAa14351a1FdD71f5Fdf3653AF0130f79fC005F6f"
+  symbol: WETH
+  token: "0x4200000000000000000000000000000000000006"
+  totalSupply: "35748308125903714707521"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x71Ef98c7DB8bDDA376684a1739a78210dFD69CeF"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x698e3c0B5D4259bE86A3A323274A4869A97bc826"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    "42161":
+      address: "0x02644D01979CDe915eD7D7C3a997072F5716D137"
+    "5845":
+      address: "0xf1025024e86Ffbb639A00EE7918B0411eE4B7e52"
+    "8453":
+      address: "0xAa14351a1FdD71f5Fdf3653AF0130f79fC005F6f"
+  symbol: WETH
+  token: "0x11CD37bb86F65419713f30673A480EA33c826872"
+  totalSupply: "283787220870000000000"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xDeFfe4Fd1AC72C591cFbeF3a12e72d0DC8CAD362"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Wrapped Ether
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x8Ab0961D06418b3169290993F579616BdBa054cd"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xf57A9F38C81aCba265522627E90AAA5EB197028f"
+    "10":
+      address: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    "137":
+      address: "0x0fB3F8e01fAEf0eBC1E56F34E58BA3edCe75B116"
+    "42161":
+      address: "0x02644D01979CDe915eD7D7C3a997072F5716D137"
+    "8453":
+      address: "0xAa14351a1FdD71f5Fdf3653AF0130f79fC005F6f"
+  symbol: WETH
+  totalSupply: "0"
+  type: synthetic
+

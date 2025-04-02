@@ -1,0 +1,72 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xA06164d6440dd1E8cb51b743d7bEAB86c44f74f1"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Solv BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x41Be5bcA349306eD4cC9ef2eD4046e8D621ea22B"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+  symbol: SolvBTC
+  token: "0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0"
+  totalSupply: "41380209786990188074"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x199aE19c888E06FE1a68E8b1b588E10ca7B7B7d2"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Solv BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x80656aaC307F8c7fc6a8ab6109604AA7314B34Ed"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x223E7B1EAd79C6603a891D9e733FD5ADD1044dd1"
+  symbol: SolvBTC
+  token: "0x7A56E1C57C7475CCf742a1832B028F0456652F97"
+  totalSupply: "2166396394402206414196"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "42161": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xEE62091A0b49c3206Ffcae728f794Fa698399bc2"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Solv BTC
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x2E50953884df5EFc272adAC60B394752e0B4Daa4"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x677952E2ff8c5Fb2F2455a84AC70208f4c3d7810"
+    "42161":
+      address: "0xc80f2Bd6Bc9C74a6674bC0A0966e76a5eAC51Cf7"
+  symbol: SolvBTC
+  totalSupply: "0"
+  type: synthetic
+

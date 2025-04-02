@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x16778ABA2C184b84591D2a093a8DEF96b1dBc69D"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xa3C6690FD69Ca6D0E1f6C903beCB1bD1b7595E29"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x7A153C00352DCb87E11684ce504bfE4dC170acCb"
+    "137":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+    "5845":
+      address: "0x524322C9bF30137E12f86EFE74D1Cba05f4126Fa"
+    "8453":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+  symbol: USDC
+  token: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+  totalSupply: "3912605413258692"
+  type: collateral
+base:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x406ff4690378e6fdAEF359287237917d2aB68F4A"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x3594E11576E26B71b16510ECD98Dce4Fe9DCCC92"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x7A153C00352DCb87E11684ce504bfE4dC170acCb"
+    "137":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+    "42161":
+      address: "0xd7405f4396a90cD6B1f11f172F08034dBd9265D8"
+    "5845":
+      address: "0x524322C9bF30137E12f86EFE74D1Cba05f4126Fa"
+  symbol: USDC
+  token: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  totalSupply: "3716794135148875"
+  type: collateral
+ethereum:
+  decimals: 6
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xF1Ae6c09856F6328C56e951a796f7bD340968E88"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x63Aa6099652b0F350e270b341e2c74993403a279"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0x524322C9bF30137E12f86EFE74D1Cba05f4126Fa"
+  symbol: USDC
+  token: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  totalSupply: "39410262669761874"
+  type: collateral
+optimism:
+  decimals: 6
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xec4f122Db7E2c3b0B5A589FCABC8B72F6F14a554"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x96eC2e4a373e71974F66cFBa5C8480AE7e03E023"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+    "42161":
+      address: "0xd7405f4396a90cD6B1f11f172F08034dBd9265D8"
+    "5845":
+      address: "0x524322C9bF30137E12f86EFE74D1Cba05f4126Fa"
+    "8453":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+  symbol: USDC
+  token: "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+  totalSupply: "223129302310096"
+  type: collateral
+polygon:
+  decimals: 6
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x406ff4690378e6fdAEF359287237917d2aB68F4A"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x3594E11576E26B71b16510ECD98Dce4Fe9DCCC92"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0x7A153C00352DCb87E11684ce504bfE4dC170acCb"
+    "42161":
+      address: "0xd7405f4396a90cD6B1f11f172F08034dBd9265D8"
+    "5845":
+      address: "0x524322C9bF30137E12f86EFE74D1Cba05f4126Fa"
+    "8453":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+  symbol: USDC
+  token: "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+  totalSupply: "496918190411540"
+  type: collateral
+tangle:
+  decimals: 6
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x0F5b580B47262A1984B24e86c2311A10D9F8a808"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: USD Coin
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x1cf07E9b44ec36fC180f29B25684fC0cAE5935E1"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0x3DBBB4fdC5725FF780E653FfC3Af427029C259F3"
+    "10":
+      address: "0x7A153C00352DCb87E11684ce504bfE4dC170acCb"
+    "137":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+    "42161":
+      address: "0xd7405f4396a90cD6B1f11f172F08034dBd9265D8"
+    "8453":
+      address: "0xf041B44EE24B5358D0999076933675fF5baCa437"
+  symbol: USDC
+  totalSupply: "300000"
+  type: synthetic
+

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+
+# Generated files
+generated/
+
+# Temporary files
+src/tmp/

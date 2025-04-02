@@ -1,0 +1,186 @@
+arbitrum:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xDdbAdE3fE659C34ba4EcA27A77944e49A081d482"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x979Ca5202784112f4738403dBec5D0F3B9daabB9"
+  name: Rocket Pool ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xbd6651dd0DAe09818baA8950430D139BD0D899ff"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xEF783f54b69554f0A3c7263DF508A395febb407b"
+    "137":
+      address: "0x158C33834acf0B3d061DdFA1C7784cA595AC1c25"
+    "5845":
+      address: "0xbD33235a960874027ad0C7393BE8583572EE2f5b"
+    "8453":
+      address: "0xb2434BA552d88e026c1D339CFE8c827d98A626b9"
+  symbol: rETH
+  token: "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8"
+  totalSupply: "10302269359183581103368"
+  type: collateral
+base:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x988C100871A1bAA4750c70e4d50B08Dd4efEf881"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"
+  name: Rocket Pool ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xad33fE8cA89a71aBD6EECe6182B557dE65bd5C31"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xEF783f54b69554f0A3c7263DF508A395febb407b"
+    "137":
+      address: "0x158C33834acf0B3d061DdFA1C7784cA595AC1c25"
+    "42161":
+      address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+    "5845":
+      address: "0xbD33235a960874027ad0C7393BE8583572EE2f5b"
+  symbol: rETH
+  token: "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c"
+  totalSupply: "6380679440076369611986"
+  type: collateral
+ethereum:
+  decimals: 18
+  destinationGas:
+    "5845": "64000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x3fD392c4b9c8ceD4bA003115A7803D0Fa0c6718B"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239"
+  name: Rocket Pool ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x5657B3229cCdcffa863651c1D0874476A190Cf3D"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "5845":
+      address: "0xbD33235a960874027ad0C7393BE8583572EE2f5b"
+  symbol: rETH
+  token: "0xae78736Cd615f374D3085123A210448E74Fc6393"
+  totalSupply: "434250159517717399420995"
+  type: collateral
+optimism:
+  decimals: 18
+  destinationGas:
+    "137": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0xb4c2a9A412d4ae746706CAc8aacf6340EB3D6134"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
+  name: Rocket Pool ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0xea4866eD17f557c8E4D2fB93E705320522216145"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "137":
+      address: "0x158C33834acf0B3d061DdFA1C7784cA595AC1c25"
+    "42161":
+      address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+    "5845":
+      address: "0xbD33235a960874027ad0C7393BE8583572EE2f5b"
+    "8453":
+      address: "0xb2434BA552d88e026c1D339CFE8c827d98A626b9"
+  symbol: rETH
+  token: "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D"
+  totalSupply: "8157473883423692240741"
+  type: collateral
+polygon:
+  decimals: 18
+  destinationGas:
+    "10": "68000"
+    "42161": "68000"
+    "5845": "64000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x5657B3229cCdcffa863651c1D0874476A190Cf3D"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x5d934f4e2f797775e53561bB72aca21ba36B96BB"
+  name: Rocket Pool ETH (PoS)
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x74E46BD9B48d30969aF1Ee2e381cE1B76854831C"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "10":
+      address: "0xEF783f54b69554f0A3c7263DF508A395febb407b"
+    "42161":
+      address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+    "5845":
+      address: "0xbD33235a960874027ad0C7393BE8583572EE2f5b"
+    "8453":
+      address: "0xb2434BA552d88e026c1D339CFE8c827d98A626b9"
+  symbol: rETH
+  token: "0x0266F4F08D82372CF0FcbCCc0Ff74309089c74d1"
+  totalSupply: "58449235606338957133"
+  type: collateral
+tangle:
+  decimals: 18
+  destinationGas:
+    "1": "0"
+    "10": "68000"
+    "137": "68000"
+    "42161": "68000"
+    "8453": "68000"
+  hook: "0x0000000000000000000000000000000000000000"
+  interchainSecurityModule:
+    address: "0x2B6bDd96B79B5F7593B58e2CAc2C63428BE0292e"
+    domains: {}
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+    type: defaultFallbackRoutingIsm
+  mailbox: "0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7"
+  name: Rocket Pool ETH
+  owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  proxyAdmin:
+    address: "0x9FBDc7bCb58c6A7193D1C95eF4Db1EC7c8bBade5"
+    owner: "0xAC8E9305dc7AC95685c7D52E759c35aCd9eB90Ff"
+  remoteRouters:
+    "1":
+      address: "0xD261C3F45F88169FA2b51dFA65c45e8644E2e0bB"
+    "10":
+      address: "0xEF783f54b69554f0A3c7263DF508A395febb407b"
+    "137":
+      address: "0x158C33834acf0B3d061DdFA1C7784cA595AC1c25"
+    "42161":
+      address: "0xB6e1965e8c13657e25450F0161eebAD8F2b2FC0E"
+    "8453":
+      address: "0xb2434BA552d88e026c1D339CFE8c827d98A626b9"
+  symbol: rETH
+  totalSupply: "0"
+  type: synthetic
+
