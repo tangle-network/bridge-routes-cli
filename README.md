@@ -25,9 +25,9 @@ pnpm dev
 
 The CLI provides an interactive interface with the following features:
 
-1. **Show token routes** - Display a matrix of tokens and their deployments across different chains
-2. **Show token route contracts** - View contract addresses for deployed tokens across chains
-3. **Show token route owners** - Check ownership information for token route contracts
+1. **Show token routes** - Display tokens and their deployments across different chains
+2. **Show token route contracts** - Display contract addresses for deployed tokens across chains
+3. **Show token route owners** - Display ownership information for token route contracts
 4. **Update token route owners** - Transfer ownership of token route contracts to a new address
 
 ### Environment Variables
